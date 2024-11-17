@@ -34,11 +34,17 @@ import asperLogo from "./asperLogo.jpg";
 import tripplanner from "./tripplanner.png";
 import sociout from "./sociout.png";
 import ignyte from "./ignyte.png";
+import wmwLogo from "./wmwLogo.webp";
+import buyKaro from "./buyKaro.png";
+import cinemix from "./cinemix.png";
 
 export {
   logo,
   backend,
   asperLogo,
+  wmwLogo,
+  cinemix,
+  buyKaro,
   tripplanner,
   sociout,
   ignyte,

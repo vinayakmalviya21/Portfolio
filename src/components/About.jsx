@@ -43,11 +43,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled frontend web developer with experience in Javascript, and
-        good hand on frameworks like React , TailwindCSS and also a coder.I'm
-        quick learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real world
-        problems.Let's work together to bring your ideas to life!
+        I'm a skilled MERN stack developer with expertise in JavaScript and
+        hands-on experience with frameworks like React, Node.js, and Tailwind
+        CSS. I specialize in building dynamic, scalable, and user-friendly web
+        applications using the full-stack development approach. A quick learner
+        and problem-solver, I collaborate closely with clients to deliver
+        efficient and real-world solutions. Let's work together to bring your
+        ideas to life and make impactful digital experiences!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
