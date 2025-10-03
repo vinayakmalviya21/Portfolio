@@ -43,13 +43,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled MERN stack developer with expertise in JavaScript and
-        hands-on experience with frameworks like React, Node.js, and Tailwind
-        CSS. I specialize in building dynamic, scalable, and user-friendly web
-        applications using the full-stack development approach. A quick learner
-        and problem-solver, I collaborate closely with clients to deliver
-        efficient and real-world solutions. Let's work together to bring your
-        ideas to life and make impactful digital experiences!
+        I am Vinayak Malviya, a B.Tech graduate in Information Technology from
+        UIT, RGPV. I am passionate about Web Development with hands-on
+        experience in <b>HTML, CSS, JavaScript, React, Node.js, Express.js,
+        MongoDB, along with strong foundations in DSA, OOPS, DBMS, CN, and SQL.</b>
+        I served as a Web Developer and later Co-Head of the Web Department in
+        the ASPER club, and held leadership roles as Technical Lead and
+        Executive Head at CodeAdept. <b>I also completed a 10-month SDE Internship
+        at WanderMeWell, gaining valuable industry exposure in building
+        full-stack applications.</b> In addition to my technical expertise, I bring
+        leadership and event management skills, enabling me to collaborate
+        effectively and deliver impactful results.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

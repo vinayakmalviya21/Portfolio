@@ -25,12 +25,47 @@ import {
   // tripguide,
   // threejs,
 } from "../assets";
-import {tripplanner,sociout,ignyte,asperLogo,wmwLogo,buyKaro} from '../assets';
+
+import {
+  tripplanner,
+  sociout,
+  ignyte,
+  asperLogo,
+  wmwLogo,
+  buyKaro,
+} from "../assets";
+
+import {
+  FaReact,
+  FaNodeJs,
+  FaDatabase,
+  FaGithub,
+  FaCode,
+  FaLaptopCode,
+  FaUsers,
+} from "react-icons/fa";
+
+import {
+  SiMongodb,
+  SiTailwindcss,
+  SiBootstrap,
+  SiJavascript,
+  SiCplusplus,
+  SiPostman,
+} from "react-icons/si";
 
 export const navLinks = [
   {
     id: "about",
     title: "About",
+  },
+  {
+    id: "links",
+    title: "Links",
+  },
+  {
+    id: "skills",
+    title: "Skills",
   },
   {
     id: "work",
@@ -155,7 +190,7 @@ const experiences = [
     //   "Implementing responsive design and ensuring cross-browser compatibility.",
     //   "Participating in code reviews and providing constructive feedback to other developers.",
     // ],
-  }
+  },
 ];
 
 const testimonials = [
@@ -210,7 +245,7 @@ const projects = [
     ],
     image: buyKaro,
     source_code_link: "https://github.com/vinayakmalviya21/buykaro-frontend",
-    website_link:"https://buykaro-frontend.vercel.app",
+    website_link: "https://buykaro-frontend.vercel.app",
   },
   {
     name: "Cinemix",
@@ -228,11 +263,11 @@ const projects = [
       {
         name: "tailwind",
         color: "pink-text-gradient",
-      }
+      },
     ],
     image: cinemix,
     source_code_link: "https://github.com/vinayakmalviya21/cinemix",
-    website_link:"https://cinemix-ott.vercel.app/",
+    website_link: "https://cinemix-ott.vercel.app/",
   },
   // {
   //   name: "Trip Planner",
@@ -275,7 +310,7 @@ const projects = [
     ],
     image: sociout,
     source_code_link: "https://github.com/vinayakmalviya21/Sociout",
-    website_link:"https://vinayakmalviya21.github.io/Sociout/login.html",
+    website_link: "https://vinayakmalviya21.github.io/Sociout/login.html",
   },
   // {
   //   name: "Ignyte",
@@ -300,4 +335,85 @@ const projects = [
   // },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const links = [
+  {
+    title: "GitHub",
+    url: "https://github.com/vinayakmalviya21", // your GitHub link
+  },
+  {
+    title: "LinkedIn",
+    url: "https://www.linkedin.com/in/vinayakmalviya21", // your LinkedIn link
+  },
+  {
+    title: "Resume",
+    url: "https://drive.google.com/file/d/1Hipj8qYKTskW9u6m60jkH0785aewdAMy/view?usp=sharing", // replace with your actual drive link
+  },
+  {
+    title: "GeeksforGeeks",
+    url: "https://www.geeksforgeeks.org/user/vinayakmalviya21/", // your GFG profile
+  },
+  {
+    title: "LeetCode",
+    url: "https://leetcode.com/u/vinayakmalviya21", // your LeetCode profile
+  },
+];
+
+const categories = [
+  {
+    title: "Technologies & Frameworks",
+    skills: [
+      { name: "React.js", icon: FaReact, color: "text-blue-400" },
+      { name: "Node.js", icon: FaNodeJs, color: "text-green-500" },
+      { name: "Express.js", icon: FaNodeJs, color: "text-gray-300" },
+      { name: "MongoDB", icon: SiMongodb, color: "text-green-600" },
+      { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-cyan-400" },
+      { name: "Bootstrap", icon: SiBootstrap, color: "text-purple-500" },
+    ],
+  },
+  {
+    title: "Languages",
+    skills: [
+      { name: "C++", icon: SiCplusplus, color: "text-blue-500" },
+      { name: "DSA", icon: FaCode, color: "text-yellow-400" },
+      { name: "HTML", icon: FaLaptopCode, color: "text-orange-500" },
+      { name: "CSS", icon: FaLaptopCode, color: "text-blue-400" },
+      { name: "JavaScript", icon: SiJavascript, color: "text-yellow-400" },
+      { name: "SQL", icon: FaDatabase, color: "text-pink-500" },
+    ],
+  },
+  {
+    title: "Core Subjects",
+    skills: [
+      { name: "DBMS", icon: FaDatabase, color: "text-indigo-400" },
+      { name: "Operating Systems", icon: FaLaptopCode, color: "text-green-400" },
+      { name: "OOPs", icon: FaCode, color: "text-pink-400" },
+      { name: "Computer Networks", icon: FaLaptopCode, color: "text-cyan-500" },
+    ],
+  },
+  {
+    title: "Tools",
+    skills: [
+      { name: "VS Code", icon: FaLaptopCode, color: "text-blue-400" },
+      { name: "GitHub", icon: FaGithub, color: "text-gray-300" },
+      { name: "Postman", icon: SiPostman, color: "text-orange-500" },
+    ],
+  },
+  {
+    title: "Soft Skills",
+    skills: [
+      { name: "Leadership", icon: FaUsers, color: "text-yellow-400" },
+      { name: "Team Collaboration", icon: FaUsers, color: "text-green-400" },
+      { name: "Adaptability", icon: FaUsers, color: "text-blue-400" },
+    ],
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  links,
+  categories,
+};
