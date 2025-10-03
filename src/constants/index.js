@@ -223,8 +223,12 @@ const testimonials = [
 const projects = [
   {
     name: "buyKaro",
-    description:
-      "A feature-rich e-commerce platform built with the MERN stack and Tailwind CSS. It offers secure authentication, Add to Cart, Wishlist, and Buy Now functionalities, along with a responsive design optimized for mobile and desktop devices..",
+    description: [
+      "Developed using the MERN stack and Tailwind CSS, offering a fully-featured shopping experience.",
+      "Implemented core e-Commerce functionalities, including an intuitive Add to Cart and Wishlist system, with a streamlined Buy Now feature.",
+      "Integrated secure and responsive user authentication with log-in and sign-up capabilities, together with profile management, to enhance user experience and retention.",
+      "Implemented a responsive design and optimized front-end for mobile and desktop, delivering a consistent experience across devices.",
+    ],
     tags: [
       {
         name: "reactjs",
@@ -247,28 +251,28 @@ const projects = [
     source_code_link: "https://github.com/vinayakmalviya21/buykaro-frontend",
     website_link: "https://buykaro-frontend.vercel.app",
   },
-  {
-    name: "Cinemix",
-    description:
-      "A modern OTT platform built with ReactJS, Tailwind CSS, and Firebase. It features secure login functionality and integrates with a Movies API to provide a seamless experience for browsing and streaming movies across devices with a responsive design.",
-    tags: [
-      {
-        name: "reactjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: cinemix,
-    source_code_link: "https://github.com/vinayakmalviya21/cinemix",
-    website_link: "https://cinemix-ott.vercel.app/",
-  },
+  // {
+  //   name: "Cinemix",
+  //   description:
+  //     "A modern OTT platform built with ReactJS, Tailwind CSS, and Firebase. It features secure login functionality and integrates with a Movies API to provide a seamless experience for browsing and streaming movies across devices with a responsive design.",
+  //   tags: [
+  //     {
+  //       name: "reactjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "firebase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: cinemix,
+  //   source_code_link: "https://github.com/vinayakmalviya21/cinemix",
+  //   website_link: "https://cinemix-ott.vercel.app/",
+  // },
   // {
   //   name: "Trip Planner",
   //   description:
@@ -290,28 +294,28 @@ const projects = [
   //   image: tripplanner,
   //   source_code_link: "https://github.com/vinayakmalviya21/TripPlanner",
   // },
-  {
-    name: "Sociout",
-    description:
-      "A feature-rich social media web application designed to enhance user connectivity and engagement. Users can create profiles, update their profile pictures, share posts, like posts, and manage friend requests, fostering seamless interaction and communication.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: sociout,
-    source_code_link: "https://github.com/vinayakmalviya21/Sociout",
-    website_link: "https://vinayakmalviya21.github.io/Sociout/login.html",
-  },
+  // {
+  //   name: "Sociout",
+  //   description:
+  //     "A feature-rich social media web application designed to enhance user connectivity and engagement. Users can create profiles, update their profile pictures, share posts, like posts, and manage friend requests, fostering seamless interaction and communication.",
+  //   tags: [
+  //     {
+  //       name: "html",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "javascript",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: sociout,
+  //   source_code_link: "https://github.com/vinayakmalviya21/Sociout",
+  //   website_link: "https://vinayakmalviya21.github.io/Sociout/login.html",
+  // },
   // {
   //   name: "Ignyte",
   //   description:
@@ -385,7 +389,11 @@ const categories = [
     title: "Core Subjects",
     skills: [
       { name: "DBMS", icon: FaDatabase, color: "text-indigo-400" },
-      { name: "Operating Systems", icon: FaLaptopCode, color: "text-green-400" },
+      {
+        name: "Operating Systems",
+        icon: FaLaptopCode,
+        color: "text-green-400",
+      },
       { name: "OOPs", icon: FaCode, color: "text-pink-400" },
       { name: "Computer Networks", icon: FaLaptopCode, color: "text-cyan-500" },
     ],
