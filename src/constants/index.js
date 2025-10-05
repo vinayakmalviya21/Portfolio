@@ -40,6 +40,7 @@ import {
   FaNodeJs,
   FaDatabase,
   FaGithub,
+  FaCogs,
   FaCode,
   FaLaptopCode,
   FaUsers,
@@ -91,7 +92,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Coder",
+    title: "DSA Enthusiast",
     icon: creator,
   },
 ];
@@ -379,7 +380,6 @@ const categories = [
     title: "Languages",
     skills: [
       { name: "C++", icon: SiCplusplus, color: "text-blue-500" },
-      { name: "DSA", icon: FaCode, color: "text-yellow-400" },
       { name: "HTML", icon: FaLaptopCode, color: "text-orange-500" },
       { name: "CSS", icon: FaLaptopCode, color: "text-blue-400" },
       { name: "JavaScript", icon: SiJavascript, color: "text-yellow-400" },
@@ -396,7 +396,8 @@ const categories = [
         color: "text-green-400",
       },
       { name: "OOPs", icon: FaCode, color: "text-pink-400" },
-      { name: "Computer Networks", icon: FaLaptopCode, color: "text-cyan-500" },
+      // { name: "Computer Networks", icon: FaLaptopCode, color: "text-cyan-500" },
+      { name: "DSA", icon: FaCogs, color: "text-yellow-400" },
     ],
   },
   {
@@ -413,6 +414,7 @@ const categories = [
       { name: "Leadership", icon: FaUsers, color: "text-yellow-400" },
       { name: "Team Collaboration", icon: FaUsers, color: "text-green-400" },
       { name: "Adaptability", icon: FaUsers, color: "text-blue-400" },
+      { name: "Good Learner", icon: FaUsers, color: "text-yellow-400" },
     ],
   },
 ];
