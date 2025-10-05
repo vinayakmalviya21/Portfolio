@@ -352,7 +352,7 @@ const links = [
   },
   {
     title: "Resume",
-    url: "https://drive.google.com/file/d/1Hipj8qYKTskW9u6m60jkH0785aewdAMy/view?usp=sharing", // replace with your actual drive link
+    url: "https://drive.google.com/file/d/1UE8nuAgWHoB1C5Sur_EhMcrSgkGG2hkP/view?usp=sharing", // replace with your actual drive link
   },
   {
     title: "GeeksforGeeks",
