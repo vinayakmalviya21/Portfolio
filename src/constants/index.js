@@ -153,11 +153,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Web Developer",
-    company_name: "Asper",
-    icon: asperLogo,
+    title: "SDE Intern",
+    company_name: "WanderMeWell",
+    icon: wmwLogo,
     iconBg: "#383E56",
-    date: "May 2022 - Dec 2022",
+    date: "Feb 2024 - Nov 2024",
     // points: [
     //   "Developing and maintaining web applications using React.js and other related technologies.",
     //   "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -178,12 +178,13 @@ const experiences = [
     //   "Participating in code reviews and providing constructive feedback to other developers.",
     // ],
   },
+  
   {
-    title: "SDE Intern",
-    company_name: "WanderMeWell",
-    icon: wmwLogo,
+    title: "Web Developer",
+    company_name: "Asper",
+    icon: asperLogo,
     iconBg: "#383E56",
-    date: "Feb 2024 - Nov 2024",
+    date: "May 2022 - Dec 2022",
     // points: [
     //   "Developing and maintaining web applications using React.js and other related technologies.",
     //   "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
