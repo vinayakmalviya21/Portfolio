@@ -36,7 +36,9 @@ import sociout from "./sociout.png";
 import ignyte from "./ignyte.png";
 import wmwLogo from "./wmwLogo.webp";
 import buyKaro from "./buyKaro.png";
+import chatVerse from "./chatVerse.png";
 import cinemix from "./cinemix.png";
+import tcsLogo from "./tcsLogo.png";
 
 export {
   logo,
@@ -46,6 +48,8 @@ export {
   cinemix,
   buyKaro,
   tripplanner,
+  tcsLogo,
+  chatVerse,
   sociout,
   ignyte,
   creator,

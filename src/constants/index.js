@@ -33,6 +33,8 @@ import {
   asperLogo,
   wmwLogo,
   buyKaro,
+  chatVerse,
+  tcsLogo,
 } from "../assets";
 
 import {
@@ -53,6 +55,7 @@ import {
   SiJavascript,
   SiCplusplus,
   SiPostman,
+  SiRedux,
 } from "react-icons/si";
 
 export const navLinks = [
@@ -154,6 +157,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Assistant System Engineer-Trainee",
+    company_name: "Tata Consultancy Services",
+    icon: tcsLogo,
+    iconBg: "#000000",
+    date: "Nov 2025 - Present",
+    // points: [
+    //   "Developing and maintaining web applications using React.js and other related technologies.",
+    //   "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //   "Implementing responsive design and ensuring cross-browser compatibility.",
+    //   "Participating in code reviews and providing constructive feedback to other developers.",
+    // ],
+  },
+  {
     title: "SDE Intern",
     company_name: "WanderMeWell",
     icon: wmwLogo,
@@ -179,7 +195,7 @@ const experiences = [
     //   "Participating in code reviews and providing constructive feedback to other developers.",
     // ],
   },
-  
+
   {
     title: "Web Developer",
     company_name: "Asper",
@@ -226,10 +242,9 @@ const projects = [
   {
     name: "buyKaro",
     description: [
-      "Developed using the MERN stack and Tailwind CSS, offering a fully-featured shopping experience.",
-      "Implemented core e-Commerce functionalities, including an intuitive Add to Cart and Wishlist system, with a streamlined Buy Now feature.",
-      "Integrated secure and responsive user authentication with log-in and sign-up capabilities, together with profile management, to enhance user experience and retention.",
-      "Implemented a responsive design and optimized front-end for mobile and desktop, delivering a consistent experience across devices.",
+      "Full-featured e-commerce app built with MERN and Tailwind CSS.",
+      "Includes Add to Cart, Wishlist, and Buy Now functionalities.",
+      "Secure auth with login, signup, and profile management.",
     ],
     tags: [
       {
@@ -252,6 +267,24 @@ const projects = [
     image: buyKaro,
     source_code_link: "https://github.com/vinayakmalviya21/buykaro-frontend",
     website_link: "https://buykaro-frontend.vercel.app",
+  },
+  {
+    name: "ChatVerse",
+    description: [
+      "Real-time chat app built with MERN, Socket.IO, and Redux for seamless communication.",
+      "Secure auth with bcrypt and instant messaging across users.",
+      "Responsive, minimal UI for smooth cross-device experience.",
+    ],
+
+    tags: [
+      { name: "reactjs", color: "blue-text-gradient" },
+      { name: "nodejs", color: "green-text-gradient" },
+      { name: "socket.io", color: "pink-text-gradient" },
+      { name: "redux", color: "orange-text-gradient" },
+    ],
+    image: chatVerse,
+    source_code_link: "https://github.com/vinayakmalviya21/ChatVerse",
+    website_link: "https://chat-verse-green.vercel.app/",
   },
   // {
   //   name: "Cinemix",
@@ -369,6 +402,7 @@ const categories = [
     title: "Technologies & Frameworks",
     skills: [
       { name: "React.js", icon: FaReact, color: "text-blue-400" },
+      { name: "Redux", icon: SiRedux, color: "text-purple-400" },
       { name: "Node.js", icon: FaNodeJs, color: "text-green-500" },
       { name: "Express.js", icon: FaNodeJs, color: "text-gray-300" },
       { name: "MongoDB", icon: SiMongodb, color: "text-green-600" },
