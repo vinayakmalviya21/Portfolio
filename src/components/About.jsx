@@ -43,17 +43,54 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am Vinayak Malviya, a B.Tech graduate in Information Technology from
-        UIT, RGPV. I am passionate about Web Development with hands-on
-        experience in <b>HTML, CSS, JavaScript, React, Node.js, Express.js,
-        MongoDB, along with strong foundations in DSA, OOPS, DBMS, CN, and SQL.</b>
-        I served as a Web Developer and later Co-Head of the Web Department in
-        the ASPER club, and held leadership roles as Technical Lead and
-        Executive Head at CodeAdept. <b>I also completed a 10-month SDE Internship
-        at WanderMeWell, gaining valuable industry exposure in building
-        full-stack applications.</b> In addition to my technical expertise, I bring
-        leadership and event management skills, enabling me to collaborate
-        effectively and deliver impactful results.
+        I am <span className="text-white font-semibold">Vinayak Malviya</span>,
+        an{" "}
+        <span className="text-white font-semibold">
+          Information Technology graduate from UIT, RGPV
+        </span>{" "}
+        with a strong interest in{" "}
+        <span className="text-white font-semibold">
+          Full Stack Web Development
+        </span>{" "}
+        and scalable application building.
+        <br />
+        <br />I have hands-on experience working with{" "}
+        <span className="text-white font-semibold">
+          React, Angular, JavaScript, TypeScript, Node.js, Express.js, Spring
+          Boot, MongoDB, MySQL
+        </span>
+        , HTML, CSS, and REST APIs, along with solid fundamentals in{" "}
+        <span className="text-white font-semibold">
+          DSA, OOPs, DBMS, Operating Systems, and SQL
+        </span>
+        .
+        <br />
+        <br />
+        Currently working as an{" "}
+        <span className="text-white font-semibold">
+          Assistant System Engineer Trainee at TCS, Pune
+        </span>
+        , and previously completed a{" "}
+        <span className="text-white font-semibold">
+          10-month SDE Internship at WanderMeWell
+        </span>
+        , where I contributed to backend development, API integrations,
+        debugging, and application optimization.
+        <br />
+        <br />
+        Beyond technical development, I have held leadership positions including{" "}
+        <span className="text-white font-semibold">
+          Executive Head at CodeAdept
+        </span>{" "}
+        and{" "}
+        <span className="text-white font-semibold">
+          Co-Head of the Web Department at ASPER
+        </span>
+        , where I worked on team collaboration, technical events, and community
+        initiatives.
+        <br />
+        <br />I enjoy building impactful products, solving real-world problems,
+        and continuously improving my development skills.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

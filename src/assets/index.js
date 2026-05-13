@@ -31,6 +31,7 @@ import threejs from "./tech/threejs.svg";
 // import tripguide from "./tripguide.png";
 
 import asperLogo from "./asperLogo.jpg";
+import expenseTracker from "./expenseTracker.png";
 import tripplanner from "./tripplanner.png";
 import sociout from "./sociout.png";
 import ignyte from "./ignyte.png";
@@ -48,6 +49,7 @@ export {
   cinemix,
   buyKaro,
   tripplanner,
+  expenseTracker,
   tcsLogo,
   chatVerse,
   sociout,

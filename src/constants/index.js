@@ -1,3 +1,4 @@
+import { FaJava } from "react-icons/fa6";
 import {
   // mobile,
   backend,
@@ -34,6 +35,7 @@ import {
   wmwLogo,
   buyKaro,
   chatVerse,
+  expenseTracker,
   tcsLogo,
 } from "../assets";
 
@@ -56,6 +58,9 @@ import {
   SiCplusplus,
   SiPostman,
   SiRedux,
+  SiSpringboot,
+  SiMysql,
+  SiAngular,
 } from "react-icons/si";
 
 export const navLinks = [
@@ -102,57 +107,65 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Java",
+    icon: FaJava,
   },
   {
-    name: "CSS",
-    icon: css,
+    name: "Spring Boot",
+    icon: SiSpringboot,
+  },
+  {
+    name: "Angular",
+    icon: SiAngular,
+  },
+  {
+    name: "MySQL",
+    icon: SiMysql,
+  },
+  {
+    name: "C++",
+    icon: SiCplusplus,
   },
   {
     name: "JavaScript",
-    icon: javascript,
+    icon: SiJavascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
   {
     name: "React JS",
-    icon: reactjs,
+    icon: FaReact,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Redux",
+    icon: SiRedux,
   },
   {
     name: "Node JS",
-    icon: nodejs,
+    icon: FaNodeJs,
+  },
+  {
+    name: "Express JS",
+    icon: FaCogs,
   },
   {
     name: "MongoDB",
-    icon: mongodb,
-  },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
-  {
-    name: "git",
-    icon: git,
+    icon: SiMongodb,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Tailwind CSS",
+    icon: SiTailwindcss,
   },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "Bootstrap",
+    icon: SiBootstrap,
+  },
+  {
+    name: "GitHub",
+    icon: FaGithub,
+  },
+  {
+    name: "Postman",
+    icon: SiPostman,
+  },
 ];
 
 const experiences = [
@@ -162,12 +175,13 @@ const experiences = [
     icon: tcsLogo,
     iconBg: "#000000",
     date: "Nov 2025 - Present",
-    // points: [
-    //   "Developing and maintaining web applications using React.js and other related technologies.",
-    //   "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //   "Implementing responsive design and ensuring cross-browser compatibility.",
-    //   "Participating in code reviews and providing constructive feedback to other developers.",
-    // ],
+    points: [
+      "Completed ILP training in Java Full Stack Development using Spring Boot, Angular, SQL, and REST APIs, gaining hands-on experience in building robust web applications.",
+      //   "Developing and maintaining web applications using React.js and other related technologies.",
+      //   "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      //   "Implementing responsive design and ensuring cross-browser compatibility.",
+      //   "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
   },
   {
     title: "SDE Intern",
@@ -269,23 +283,41 @@ const projects = [
     website_link: "https://buykaro-frontend.vercel.app",
   },
   {
-    name: "ChatVerse",
+    name: "Expense Tracker",
     description: [
-      "Real-time chat app built with MERN, Socket.IO, and Redux for seamless communication.",
-      "Secure auth with bcrypt and instant messaging across users.",
-      "Responsive, minimal UI for smooth cross-device experience.",
+      "Full-stack expense management application with CRUD operations and category-wise filtering.",
+      "Built using Angular, Spring Boot, MySQL, and JWT authentication for secure user access.",
+      "Implemented 6 REST APIs for expense and user management with a responsive UI.",
     ],
 
     tags: [
-      { name: "reactjs", color: "blue-text-gradient" },
-      { name: "nodejs", color: "green-text-gradient" },
-      { name: "socket.io", color: "pink-text-gradient" },
-      { name: "redux", color: "orange-text-gradient" },
+      { name: "angular", color: "red-text-gradient" },
+      { name: "springboot", color: "green-text-gradient" },
+      { name: "mysql", color: "blue-text-gradient" },
+      { name: "jwt", color: "pink-text-gradient" },
     ],
-    image: chatVerse,
-    source_code_link: "https://github.com/vinayakmalviya21/ChatVerse",
-    website_link: "https://chat-verse-green.vercel.app/",
+    image: expenseTracker,
+    source_code_link: "https://github.com/vinayakmalviya21/expensify",
+    website_link: "https://expensify-self-ten.vercel.app/",
   },
+  // {
+  //   name: "ChatVerse",
+  //   description: [
+  //     "Real-time chat app built with MERN, Socket.IO, and Redux for seamless communication.",
+  //     "Secure auth with bcrypt and instant messaging across users.",
+  //     "Responsive, minimal UI for smooth cross-device experience.",
+  //   ],
+
+  //   tags: [
+  //     { name: "reactjs", color: "blue-text-gradient" },
+  //     { name: "nodejs", color: "green-text-gradient" },
+  //     { name: "socket.io", color: "pink-text-gradient" },
+  //     { name: "redux", color: "orange-text-gradient" },
+  //   ],
+  //   image: chatVerse,
+  //   source_code_link: "https://github.com/vinayakmalviya21/ChatVerse",
+  //   website_link: "https://chat-verse-green.vercel.app/",
+  // },
   // {
   //   name: "Cinemix",
   //   description:
@@ -385,15 +417,15 @@ const links = [
   },
   {
     title: "Resume",
-    url: "https://drive.google.com/file/d/1UE8nuAgWHoB1C5Sur_EhMcrSgkGG2hkP/view?usp=sharing", // replace with your actual drive link
-  },
-  {
-    title: "GeeksforGeeks",
-    url: "https://www.geeksforgeeks.org/user/vinayakmalviya21/", // your GFG profile
+    url: "https://drive.google.com/file/d/1j5RwonN9L-P2nJGX3BP9F_WNM0txzFj0/view?usp=sharing", // replace with your actual drive link
   },
   {
     title: "LeetCode",
     url: "https://leetcode.com/u/vinayakmalviya21", // your LeetCode profile
+  },
+  {
+    title: "GeeksforGeeks",
+    url: "https://www.geeksforgeeks.org/user/vinayakmalviya21/", // your GFG profile
   },
 ];
 
@@ -402,17 +434,22 @@ const categories = [
     title: "Technologies & Frameworks",
     skills: [
       { name: "React.js", icon: FaReact, color: "text-blue-400" },
+      { name: "Angular", icon: SiAngular, color: "text-red-500" },
       { name: "Redux", icon: SiRedux, color: "text-purple-400" },
       { name: "Node.js", icon: FaNodeJs, color: "text-green-500" },
       { name: "Express.js", icon: FaNodeJs, color: "text-gray-300" },
+      { name: "Spring Boot", icon: SiSpringboot, color: "text-green-400" },
       { name: "MongoDB", icon: SiMongodb, color: "text-green-600" },
+      { name: "MySQL", icon: SiMysql, color: "text-blue-500" },
       { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-cyan-400" },
       { name: "Bootstrap", icon: SiBootstrap, color: "text-purple-500" },
     ],
   },
+
   {
     title: "Languages",
     skills: [
+      { name: "Java", icon: FaJava, color: "text-orange-500" },
       { name: "C++", icon: SiCplusplus, color: "text-blue-500" },
       { name: "HTML", icon: FaLaptopCode, color: "text-orange-500" },
       { name: "CSS", icon: FaLaptopCode, color: "text-blue-400" },
@@ -420,6 +457,7 @@ const categories = [
       { name: "SQL", icon: FaDatabase, color: "text-pink-500" },
     ],
   },
+
   {
     title: "Core Subjects",
     skills: [
@@ -430,25 +468,27 @@ const categories = [
         color: "text-green-400",
       },
       { name: "OOPs", icon: FaCode, color: "text-pink-400" },
-      // { name: "Computer Networks", icon: FaLaptopCode, color: "text-cyan-500" },
       { name: "DSA", icon: FaCogs, color: "text-yellow-400" },
     ],
   },
+
   {
     title: "Tools",
     skills: [
       { name: "VS Code", icon: FaLaptopCode, color: "text-blue-400" },
+      { name: "Git", icon: FaGithub, color: "text-orange-400" },
       { name: "GitHub", icon: FaGithub, color: "text-gray-300" },
       { name: "Postman", icon: SiPostman, color: "text-orange-500" },
     ],
   },
+
   {
     title: "Soft Skills",
     skills: [
       { name: "Leadership", icon: FaUsers, color: "text-yellow-400" },
       { name: "Team Collaboration", icon: FaUsers, color: "text-green-400" },
       { name: "Adaptability", icon: FaUsers, color: "text-blue-400" },
-      { name: "Good Learner", icon: FaUsers, color: "text-yellow-400" },
+      { name: "Quick Learner", icon: FaUsers, color: "text-pink-400" },
     ],
   },
 ];
